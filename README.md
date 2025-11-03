@@ -6,7 +6,7 @@ Play around with these variables:
 - `angle2`
 - `mass1`
 - `mass2`
-
+---
 Equations for angle acceleration from [myPhysicsLab.com](https://www.myphysicslab.com/pendulum/double-pendulum-en.html).
 - Angle 1 acceleration: $$\theta_1'' = \frac{-g (2m_1 + m_2)\sin\theta_1 - m_2 g \sin(\theta_1 - 2\theta_2) - 2\sin(\theta_1 - \theta_2)m_2((\theta_2'^2 L_2 + \theta_1'^2 L_1 \cos(\theta_1 - \theta_2)))}{L_1(2m_1 + m_2 - m_2 \cos(2\theta_1 - 2\theta_2))}$$
 - Angle 2 acceleration: $$\theta_2'' = \frac{2\sin(\theta_1 - \theta_2)\left(\theta_1'^2 L_1 (m_1 + m_2) + g(m_1 + m_2)\cos\theta_1 + \theta_2'^2 L_2 m_2 \cos(\theta_1 - \theta_2)\right)}{L_2(2m_1 + m_2 - m_2 \cos(2\theta_1 - 2\theta_2))}$$
